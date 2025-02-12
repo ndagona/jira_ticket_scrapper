@@ -1,71 +1,60 @@
-🚀 Unassigned Tickets Scraper - Chrome Extension
+# 🚀 Unassigned Tickets Scraper - Chrome Extension
 
-📌 About
+## 📌 About
 
-Unassigned Tickets Scraper is a powerful Chrome extension designed to automate the extraction of unassigned tickets from a web-based ticketing system and push the data to a Google Sheet for seamless tracking and timely reporting.
+**Unassigned Tickets Scraper** is a powerful Chrome extension designed to automate the extraction of unassigned tickets from a web-based ticketing system and push the data to a Google Sheet for seamless tracking and timely reporting.
 
-🎯 Features
+## 🎯 Features
 
-🕵️‍♂️ Automated Scraping – Extracts unassigned tickets with a single click.
+- 🕵️‍♂️ **Automated Scraping** – Extracts unassigned tickets with a single click.
+- 📊 **Google Sheets Integration** – Pushes data directly to a designated Google Sheet.
+- ⚡ **Real-time Reporting** – Ensures up-to-date ticket information.
+- 🔄 **Easy to Use** – Simple UI with one-click execution.
+- 🔒 **Secure** – Works within browser permissions, ensuring data privacy.
 
-📊 Google Sheets Integration – Pushes data directly to a designated Google Sheet.
+## 🛠️ Installation
 
-⚡ Real-time Reporting – Ensures up-to-date ticket information.
+1. **Download or Clone the Repository**
+   ```sh
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+2. **Load the Extension in Chrome**
+   - Open Chrome and navigate to `chrome://extensions/`.
+   - Enable **Developer Mode** (toggle in the top-right corner).
+   - Click **Load unpacked** and select the extension folder.
 
-🔄 Easy to Use – Simple UI with one-click execution.
+## 🚀 How to Use
 
-🔒 Secure – Works within browser permissions, ensuring data privacy.
+1. Open the ticketing system in your Chrome browser.
+2. Click on the **Unassigned Tickets Scraper** extension icon.
+3. Click the **Scrape Tickets** button.
+4. Data will be automatically pushed to the linked Google Sheet.
 
-🛠️ Installation
+## ⚙️ Configuration
 
-Download or Clone the Repository
+- Set up Google Sheets API for data insertion.
+- Update the script with your Google Sheets URL in the `config.js` file.
 
-git clone <repository-url>
-cd <repository-folder>
+## 📌 Permissions Required
 
-Load the Extension in Chrome
+- `activeTab` – To access and scrape ticket data.
+- `storage` – To save settings and configurations.
+- `https://docs.google.com/spreadsheets/*` – For pushing data to Google Sheets.
 
-Open Chrome and navigate to chrome://extensions/.
+## 📜 License
 
-Enable Developer Mode (toggle in the top-right corner).
+This project is licensed under the [MIT License](LICENSE).
 
-Click Load unpacked and select the extension folder.
-
-🚀 How to Use
-
-Open the ticketing system in your Chrome browser.
-
-Click on the Unassigned Tickets Scraper extension icon.
-
-Click the Scrape Tickets button.
-
-Data will be automatically pushed to the linked Google Sheet.
-
-⚙️ Configuration
-
-Set up Google Sheets API for data insertion.
-
-Update the script with your Google Sheets URL in the config.js file.
-
-📌 Permissions Required
-
-activeTab – To access and scrape ticket data.
-
-storage – To save settings and configurations.
-
-https://docs.google.com/spreadsheets/* – For pushing data to Google Sheets.
-
-📜 License
-
-This project is licensed under the MIT License.
-
-🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions! Feel free to submit pull requests or report issues.
 
-📞 Support
+## 📞 Support
 
-For any queries or support, contact [Your Contact Info] or create an issue in this repository.
+For any queries or support, contact **[Your Contact Info]** or create an issue in this repository.
 
-🔹 Built with ❤️ for seamless reporting and workflow automation.
+---
+
+🔹 **Built with ❤️ for seamless reporting and workflow automation.**
 
